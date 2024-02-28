@@ -1,7 +1,128 @@
-
-
-header {
-    height: 123px;
-    background-color: rgb(110, 110, 110);
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     text-align: center;
+ }
+ 
+ p{
+    margin-top: 60px;
 }
+
+ .header-box {
+    height: 88px;
+    background-color: rgb(110, 110, 110);
+
+}
+
+.header-box p {
+    margin-top: 30px;
+}
+
+.hero-image {
+    height: 239px;
+    background-color: rgb(110, 110, 110);
+    margin-bottom: 60px;
+}
+
+.about-me {
+    margin-bottom: 60px;
+    justify-self: center;
+}
+
+.image-box, .image-box-mid, .image-box-end {
+    width: 261px;
+    height: 196px;
+    background-color: rgb(138, 138, 138);
+    margin-bottom: 27px;
+    justify-self: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer-box {
+    margin-top: 33px;
+    height: 116px;
+    background-color: rgb(110, 110, 110);
+}
+
+
+
+ @media screen and (min-width: 768px) {
+    body {
+       font-size: 100%;
+    }
+ 
+.header-box {
+    height: 123px;
+}
+
+.hero-image {
+    height: 335px;
+    margin-top: 60px;
+}
+
+.image-box, .image-box-mid, .image-box-end {
+    width: 228px;
+    height: 191px;
+    margin-bottom: 40px;
+    justify-self: unset;
+}
+
+.image-box-mid {
+    margin-left: 0px;
+}
+
+.image-box-end {
+    margin-left: 0px;
+}
+
+.hidden {
+    display: block;
+}
+
+.footer-box {
+    height: 154px;
+    background-color: rgb(110, 110, 110);
+    align-self: center;
+}
+ }
+
+
+@media screen and (min-width: 1200px) {
+    body {
+       font-size: 115%;
+    }
+
+    
+    .header-box {
+        height: 123px;
+    }
+    
+    .hero-image {
+        height: 493px;
+    }
+    
+    .image-box, .image-box-mid, .image-box-end {
+        width: 300px;
+        height: 215px;
+        margin-bottom: 60px;
+    }
+    
+    .image-box-mid {
+        margin-left: 35px;
+    }
+    
+    .image-box-end {
+        margin-left: 70px;
+    }
+
+    .hidden {
+        display: block;
+    }
+     
+    .footer-box {
+        height: 154px;
+    }
+ }
