@@ -53,6 +53,10 @@ body {
     display: none;
 }
 
+.box-hidden {
+    display: none;
+}
+
 .footer-box {
     margin-top: 33px;
     height: 116px;
@@ -127,7 +131,7 @@ height: 343px;
     margin-left: 0px;
 }
 
-.hidden {
+.box-hidden {
     display: block;
 }
 
@@ -178,10 +182,6 @@ ul li{
     
     .image-box-end {
         margin-left: 70px;
-    }
-
-    .hidden {
-        display: block;
     }
      
     .footer-box {
